@@ -1,0 +1,42 @@
+
+
+.calculatorBox{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+  
+    
+}
+
+.numberField{
+    border: 1px gray solid;
+    font-size:x-large;
+    display: flex;
+    align-items: flex-end;
+    justify-content:end;
+    width:auto;
+    height:25%;
+}
+
+.numberButtons{
+    display: flex;
+    flex-wrap: wrap;
+    height: 75%;
+    width: auto;
+}
+
+.numberButtons > *{
+    width: 25%;
+    height: auto;
+}
+
+#zerokey {
+    width: 50%;
+}
+.operatorButtons{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    
+}
